@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>contacts</title>
     <style>
         .text_center {
             text-align: center;
@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <nav class="text_center">
+<nav class="text_center">
         <ul>
             <li>
                 <a href="{{'home'}}">home</a>
@@ -33,7 +33,6 @@
             </li>
         </ul>
     </nav>
-    <h1 class="text_center">Hello World</h1>
-    <h3 class="text_center">{{$name}} {{$surname}}</h3>
+    <h1 class="text_center">contacts of {{$name . ' ' . $surname}}</h1>
 </body>
 </html>
