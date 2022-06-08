@@ -12,6 +12,10 @@
     </style>
 </head>
 <body>
+    <nav>
+
+    </nav>
     <h1 class="text_center">Hello World</h1>
+    <h3 class="text_center">{{$name}} {{$surname}}</h3>
 </body>
 </html>
